@@ -1,0 +1,15 @@
+{
+  "name": "gendiff",
+  "version": "1.0.0",
+  "description": "Hexlet second project",
+  "main": "index.js",
+  "bin": "./gendiff.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^11.0.0"
+  }
+}
