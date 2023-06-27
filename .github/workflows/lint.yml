@@ -1,0 +1,11 @@
+name: linter-status
+
+on:
+  push:
+jobs:
+  run-linter:
+    steps:
+      - name: Check out Git repository
+        uses: actions/checkout@v2
+      - name: Run linters
+        uses: make lint
