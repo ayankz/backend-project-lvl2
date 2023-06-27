@@ -1,4 +1,4 @@
-name: linter-status
+name: Linter Status
 
 on:
   push:
