@@ -15,7 +15,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
-      - run: make install
+      - run: npm install
 
       - name: Check out Git repository
         uses: actions/checkout@v2
