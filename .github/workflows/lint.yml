@@ -8,4 +8,4 @@ jobs:
       - name: Check out Git repository
         uses: actions/checkout@v2
       - name: Run linters
-        uses: make lint
+        run: make lint
