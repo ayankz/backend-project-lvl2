@@ -4,8 +4,8 @@ on:
   push:
 jobs:
   run-linter:
+    runs-on: ubuntu-latest
     steps:
       - name: Check out Git repository
         uses: actions/checkout@v2
-      - name: Run linters
         run: make lint
