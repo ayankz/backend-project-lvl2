@@ -2,7 +2,7 @@
 import { program } from 'commander';
 import path from 'path';
 import fs from 'fs';
-import genDiff from './main';
+import genDiff from './main.js';
 
 program
   .helpOption('-h, --help', 'output usage information')
